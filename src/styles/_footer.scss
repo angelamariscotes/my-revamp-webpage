@@ -1,0 +1,191 @@
+
+// footer {
+//   background: var(--color-footer);
+//   color: white;
+//   padding: 65px clamp(24px, 7vw, 110px) 28px;
+
+//   .brand__name {
+//       color: white;
+
+//   }
+// }
+
+// .brand--light {
+//   color: white;
+// }
+
+// .footer__top {
+//   align-items: start;
+//   display: grid;
+//   gap: 30px;
+//   grid-template-columns: 1fr 1fr 1fr;
+//   padding-bottom: 55px;
+// }
+
+// .footer__top>p {
+//   color: rgba(255, 255, 255, 0.58);
+//   font-family: var(--font-display);
+//   font-size: 23px;
+//   justify-self: center;
+//   max-width: 300px;
+//   text-align: center;
+// }
+
+// .footer__top nav {
+//   display: grid;
+//   gap: 12px;
+//   justify-self: end;
+// }
+
+// .footer__bottom {
+//   border-top: 1px solid rgba(255, 255, 255, 0.13);
+//   color: rgba(255, 255, 255, 0.4);
+//   display: flex;
+//   font-size: 8px;
+//   justify-content: space-between;
+//   letter-spacing: 0.12em;
+//   padding-top: 24px;
+//   text-transform: uppercase;
+// }
+
+
+/* Delete the old footer rules: footer, .footer__top, .footer__top > p, .footer__top nav, .footer__bottom,
+   and their copies inside the media queries. Use this file instead. */
+
+.site-footer {
+  background: var(--color-footer);
+  color: white;
+  padding: 72px clamp(24px, 7vw, 110px) 28px;
+}
+
+.footer__top {
+  align-items: start;
+  display: grid;
+  gap: 48px 64px;
+  grid-template-columns: 1.4fr 1fr 1.2fr;
+  padding-bottom: 56px;
+}
+
+.site-footer .brand__tag {
+  color: var(--color-sand);
+  font-size: 11px;
+  opacity: 0.8;
+}
+
+.footer__about {
+  color: rgba(255, 255, 255, 0.66);
+  font-family: var(--font-sans);
+  font-size: 15px;
+  line-height: 1.7;
+  margin-top: 22px;
+  max-width: 320px;
+}
+
+.footer__label {
+  color: var(--color-sand);
+  font-family: var(--font-sans);
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.16em;
+  margin: 0 0 18px;
+  text-transform: uppercase;
+}
+
+.footer__nav,
+.footer__social {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.footer__nav a {
+  color: rgba(255, 255, 255, 0.82);
+  display: inline-block;
+  font-family: var(--font-sans);
+  font-size: 15px;
+  padding: 7px 0;
+  transition: color 180ms ease;
+}
+
+.footer__nav a:hover {
+  color: white;
+}
+
+.footer__phone {
+  color: white;
+  display: block;
+  font-family: var(--font-display);
+  font-size: 30px;
+  letter-spacing: -0.01em;
+  line-height: 1.1;
+}
+
+.footer__address {
+  color: rgba(255, 255, 255, 0.66);
+  font-family: var(--font-sans);
+  font-size: 15px;
+  font-style: normal;
+  line-height: 1.7;
+  margin: 14px 0 26px;
+}
+
+.footer__social {
+  display: flex;
+  gap: 10px;
+}
+
+.footer__social a {
+  align-items: center;
+  border: 1px solid rgba(255, 255, 255, 0.28);
+  border-radius: 50%;
+  color: white;
+  display: flex;
+  font-size: 17px;
+  height: 44px;
+  justify-content: center;
+  transition: background 180ms ease, color 180ms ease;
+  width: 44px;
+}
+
+.footer__social a:hover {
+  background: white;
+  color: var(--color-footer);
+}
+
+.footer__bottom {
+  border-top: 1px solid rgba(255, 255, 255, 0.13);
+  color: rgba(255, 255, 255, 0.5);
+  display: flex;
+  flex-wrap: wrap;
+  font-family: var(--font-sans);
+  font-size: 12px;
+  gap: 8px 24px;
+  justify-content: space-between;
+  letter-spacing: 0.03em;
+  padding-top: 24px;
+}
+
+@media (max-width: 1050px) {
+  .footer__top {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .footer__brand {
+    grid-column: 1 / -1;
+  }
+}
+
+@media (max-width: 740px) {
+  .site-footer {
+    padding-top: 56px;
+  }
+
+  .footer__top {
+    gap: 40px;
+    grid-template-columns: 1fr;
+  }
+
+  .footer__bottom {
+    flex-direction: column;
+  }
+}

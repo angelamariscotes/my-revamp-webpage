@@ -1,0 +1,87 @@
+{
+    "idxID": "c015",
+    "mlsPtID": 1,
+    "listingID": "2797519",
+    "idxPhotoModified": "2026-10-16T20:09:51+00:00",
+    "parentPtID": 1,
+    "idxCountyName": "Nye",
+    "listingAgentID": "2356796",
+    "internetAllowYN": "yes",
+    "listOfficeID": "948303",
+    "dateModified": "2026-10-16T19:58:56+00:00",
+    "mlsPhotoCount": 67,
+    "rntLse": "neither",
+    "cityID": 35146,
+    "dateAdded": "2026-07-06T16:08:17+00:00",
+    "internalID": "1176525041",
+    "narContact": "(775) 513-0430",
+    "geoLocation": {
+        "lon": -116.036639,
+        "lat": 36.281027
+    },
+    "countyID": 924,
+    "displayAddress": "yes",
+    "listAgentPreferredPhone": "(775) 513-0430",
+    "idxCityName": "Pahrump",
+    "photoModified": "2026-10-16T19:58:56+00:00",
+    "listAgentID": "2356796",
+    "listingOfficeID": "948303",
+    "priceBeforeReduction": 1295000,
+    "priceReductionDate": "2026-10-06T18:53:00+00:00",
+    "listingPrice": 1275000,
+    "address": "4190 N Equus Court",
+    "rntLsePrice": 1275000,
+    "yearBuilt": 1999,
+    "totalBaths": 3,
+    "bedrooms": 3,
+    "subdivision": "none",
+    "threeQuarterBaths": 0,
+    "halfBaths": 1,
+    "cityName": "Pahrump",
+    "partialBaths": 1,
+    "zoning": "Horses Permitted,Single Family",
+    "soldPrice": 0,
+    "sqFt": "2,456",
+    "acres": "4.840",
+    "fullBaths": 2,
+    "state": "Nevada",
+    "countyName": "Nye",
+    "address.mls": "4190 North Equus Court",
+    "address.suffix": "Court",
+    "photocount": 67,
+    "displayName": "yes",
+    "idxStatus": "active",
+    "virtualTours": 1,
+    "zipcode": "89060",
+    "propType": "Residential",
+    "propSubType": "Single Family Residence",
+    "remarksConcat": "Discover an unparalleled equestrian estate offering a harmonious blend of refined living and exceptional facilities, perfectly situated to capture breathtaking 360-degree views. This beautifully remodeled home spans 2456 square feet, featuring exquisite 2x4 porcelain tile flooring throughout and elegant Anderson sliding doors, French doors, and picture casement windows that invite natural light and showcase the stunning surroundings. Modern finishes elevate every space, including a gourmet kitchen equipped with Cafe Appliances, ideal for culinary exploration and entertaining in the open living areas. A gas fireplace provides a cozy ambiance, while the primary bathroom offers a serene escape with its freestanding stone resin soaking tub and sophisticated porcelain tile. Equestrian enthusiasts will appreciate the meticulously designed amenities, including an 8-stall raised center aisle Castle Brook barn, which houses five horse stalls, an inspection room, and indoor hay storage, all featuring stallion fencing for enhanced safety. A separate 20x20 block stallion barn comes complete with an attached half-acre pasture, complemented by an additional half-acre pasture, a dedicated riding arena, and separate turnout areas. The expansive grounds are graced with mature landscaping, a charming small Zinfandel vineyard, several fruit trees, and ample garden space, all benefiting from included water rights. This property provides an idyllic lifestyle for those seeking quality equestrian facilities and a beautiful, serene environment.",
+    "propStatus": "Active",
+    "streetNumber": "4190",
+    "streetName": "Equus",
+    "streetDirection": "N",
+    "priceData": {
+        "value": {
+            "raw": 1275000,
+            "formatted": "$1,275,000"
+        },
+        "type": "active",
+        "label": "Price",
+        "field": "listingPrice"
+    },
+    "detailsURL": "https://theridgerealty.idxbroker.com/idx/details/listing/c015/2797519",
+    "logo": "https://s3.amazonaws.com/staticos.idxbroker.com/mls-logos/c015-logoURL",
+    "image": {
+        "1": {
+            "resized": false,
+            "urls": {
+                "hires": {
+                    "url": "https://api.cotality.com/trestle/Media/Property/PHOTO-Jpeg/1176525041/1/MzczLzE5MTEvMjA/MjAvNjg5NS8xNzkyMTgxMzg5/PMcVELUylz6Bjv7xS0HXmOC8kEeZ70Jg0fysV2Z5cLI"
+                }
+            },
+            "url": "https://api.cotality.com/trestle/Media/Property/PHOTO-Jpeg/1176525041/1/MzczLzE5MTEvMjA/MjAvNjg5NS8xNzkyMTgxMzg5/PMcVELUylz6Bjv7xS0HXmOC8kEeZ70Jg0fysV2Z5cLI",
+            "caption": "An aerial perspective showcases the sprawling estate with extensive fencing and dedicated equestrian arenas."
+        },
+        "totalCount": 67
+    }
+}

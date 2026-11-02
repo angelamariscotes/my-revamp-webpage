@@ -1,0 +1,49 @@
+$font-heading: 'Newsreader', Georgia, serif;
+$font-body: 'DM Sans', sans-serif;
+
+$font-regular: 400;
+$font-medium: 500;
+$font-semibold: 600;
+$font-bold: 700;
+
+:root {
+  --font-heading: #{$font-heading};
+  --font-body: #{$font-body};
+}
+
+body {
+  font-family: $font-body;
+  font-weight: $font-regular;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+blockquote {
+  font-family: $font-heading;
+  font-weight: $font-regular;
+  line-height: 1.1;
+  letter-spacing: -0.035em;
+}
+
+p,
+a,
+button,
+input,
+textarea,
+select,
+label,
+form {
+  font-family: $font-body;
+}
+
+.text-xs {
+  font-family: $font-body;
+  font-size: x-small;
+  color: var(--color-sage);
+}
